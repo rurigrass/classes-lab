@@ -1,10 +1,24 @@
 
-class Student
+class Team
 
+# attr_reader(:name, :players, :coach)
 
-def initialize(input_name, input_cohort)
-  @name = input_name
-  @cohort = input_cohort
+def initialize(name, players, coach)
+  @name = name
+  @players = players
+  @coach = coach
+end
+
+def name()
+  return @name
+end
+
+def players()
+  return @players
+end
+
+def coach()
+  return @coach
 end
 
 end
