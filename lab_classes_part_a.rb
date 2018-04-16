@@ -26,4 +26,8 @@ def can_talk()
   return "I can talk"
 end
 
+def fav_lang(language)
+  return "I love #{language}!"
+end
+
 end
